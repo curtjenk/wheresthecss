@@ -11,3 +11,6 @@ I included the instructor's css in order to compare to mine.  Boy, does mine sti
 3.  I had read on the web that display: inline-block is better than float: left.  So, I replaced float: left with display:inline-block in the instructor's css and did not get the desired results.
 
 File named styles2.css was created by taking rules one-by-one from the instructor's css just to study the impact and better understand.
+
+
+[I learned this at DigitalCrafts](https://www.digitalcrafts.com)
