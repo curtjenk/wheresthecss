@@ -1,0 +1,71 @@
+body {
+	background-color: lightgrey;
+}
+h1 {
+	font-family: 'Asset', cursive;
+	color: blue;
+	font-size: 50px;
+	text-align: center;
+	/*margin: auto;*/
+}
+/*This is the high-level div containing each image*/
+.image{
+	float: left;
+	display: inline-block;
+	width:32.333%;
+	padding: .5%;	
+}
+.caption{
+	text-align: center;
+	background-color: blue;
+	color:white;
+	margin-top: -20px;
+	position: relative;
+}
+/*force images to fit into the div*/
+.portrait img{
+	width:100%;
+}
+.landscape img{
+	width:100%;
+}
+.five{
+	margin-top: 4.5%;
+}
+.four{
+	margin-top:4.5%;
+}
+.six{
+	clear:both;
+}
+.extra-stuff{
+	font-size: 20px;
+	float: left;
+	/*display: inline-block;*/
+	width: 32.3333%;
+	text-align: center;
+	background-color: blue;
+	color: white;
+	padding:10% 0;
+	margin-top:.5%;
+	margin-left:.5%;
+}
+.wide-image .landscape img{
+	width: 100%;
+	margin-top: 1%;
+}
+@media screen and (max-width:600px) {
+	.image{
+		width:95%;
+	}
+}
+
+@media screen and (max-width: 1000px) and (min-width:601px){
+	.image{
+		width:45%;
+	}
+	.four{
+		clear:both;
+	}
+}
+
