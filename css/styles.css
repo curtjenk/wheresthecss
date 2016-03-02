@@ -25,6 +25,14 @@ h1 {
 
 .extra-stuff {
 	width: 300px;
+	height: 212px;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 212px; 
+	background-color: mediumblue;
+	color: white;
+	margin-bottom: 10px;
 }
 
 .image, .extra-stuff {
@@ -54,10 +62,23 @@ h1 {
 	border: none;
 }
 
-.image .caption {
+.caption {
 	display: block;
 	width: 100%;
 	background-color: mediumblue;
 	color: white;
+	text-align: center;
 	margin-bottom: 10px;
 }
+
+.wide-image {
+	width: 926px;
+}
+
+.wide-image .landscape img {
+	width:  100%;
+	/*height: 210px;*/
+	display: block;
+	border: none;
+}
+
